@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">UI Demo</string>
+
+    <string name="drawerClose">drawerClose</string>
+
+    <string name="drawerOPen">drawerOPen</string>
+
+
+</resources>
