@@ -16,7 +16,7 @@
         android:theme="@style/Theme.VeriousTypeLearing"
         tools:targetApi="31">
         <activity
-            android:name=".topLayout"
+            android:name=".BanglaDashbord"
             android:exported="false" />
         <activity
             android:name=".MainActivity"

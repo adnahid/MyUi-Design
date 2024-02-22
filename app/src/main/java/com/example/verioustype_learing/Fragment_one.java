@@ -1,30 +1,24 @@
 package com.example.verioustype_learing;
 
-import static androidx.core.content.ContextCompat.getSystemService;
-
-import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
 
 import androidx.cardview.widget.CardView;
 import androidx.fragment.app.Fragment;
-import androidx.viewpager2.widget.ViewPager2;
 
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.BaseAdapter;
-import android.widget.GridView;
 import android.widget.Toast;
 
 import com.denzcoskun.imageslider.ImageSlider;
 import com.denzcoskun.imageslider.constants.ScaleTypes;
 import com.denzcoskun.imageslider.models.SlideModel;
-import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
-import java.util.HashMap;
 import java.util.List;
+
+import BanglaActivity.BanglaDashbord;
 
 
 public class Fragment_one extends Fragment {
@@ -56,7 +50,7 @@ public class Fragment_one extends Fragment {
 
                 Toast.makeText(getActivity(), "Hello", Toast.LENGTH_SHORT).show();
 
-                Intent intent = new Intent(getActivity(), topLayout.class);
+                Intent intent = new Intent(getActivity(), BanglaDashbord.class);
                 startActivity(intent);
 
  
